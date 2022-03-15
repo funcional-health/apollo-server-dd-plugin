@@ -5,7 +5,7 @@ Custom Datadog instrumentation for Apollo Server.
 ## Installation
 
 ```sh
-yarn add @funcional/apollo-server-dd-plugin
+yarn add @funcional-health/apollo-server-dd-plugin
 ```
 
 Then add the plugin to your NestJS GraphQL Module configuration:
@@ -14,7 +14,7 @@ Then add the plugin to your NestJS GraphQL Module configuration:
 import { Module } from '@nestjs/common';
 import { GraphQLModule } from '@nestjs/graphql';
 import { Logger } from '@nestjs/common';
-import { dataDogTracePlugin } from '@funcional/nestjs-apollo-logger';
+import { dataDogTracePlugin } from '@funcional-health/apollo-server-dd-plugin';
 
 @Module({
   imports: [

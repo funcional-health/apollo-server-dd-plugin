@@ -1,5 +1,5 @@
 {
-  "name": "@funcional/apollo-server-dd-plugin",
+  "name": "@funcional-health/apollo-server-dd-plugin",
   "version": "0.1.0",
   "description": "Apollo Server plugin to send custom instrumentation to Datadog.",
   "main": "dist/index.js",
